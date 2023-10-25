@@ -1,0 +1,13 @@
+main{
+    display: grid;
+    grid-template-areas: "header header header"
+                        "side content content"
+                        "foot foot foot";
+}
+header{grid-area: header;}
+article{grid-area: content;}
+aside{grid-area: sidebar;}
+footer{grid-area: foot;}
+
+grid-template-rows:50px auto
+                    50px;
